@@ -8,7 +8,7 @@ public class SmartCashierDP {
         int[] value = {100, 50, 20, 10, 5, 2, 1};
         int[] quantity = {2, 3, 6, 12, 23, 5, 10};
 
-        int target = 700;
+        int target = 13;
 
         int totalCash = 0;
 
