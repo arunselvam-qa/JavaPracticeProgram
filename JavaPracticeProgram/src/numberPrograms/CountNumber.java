@@ -22,6 +22,10 @@ public class CountNumber {
 
 		System.out.println("The count of digits in the given number "+num1+" is: "+count);
 		System.out.println("The Sum of digits in the given number "+num1+" is: "+sum);
+		
+		//Another way to count int
+		int count1 = String.valueOf(num1).length();
+		System.out.println("The count of digits in the given number "+num1+" is: "+count1);
 	}
 
 }
